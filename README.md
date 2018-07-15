@@ -7,7 +7,7 @@
 
 Ce projet contient pour l'instant un seul et unique script sh pour la plateforme Recalbox. D'autres viendrons très certainement completer ce projet.
 
-Le script "Bezzel - switch.sh" permet d'activer ou de désactiver les Bezzels (image vennant entourer l'écran central où s'affichage la rom) sans avoir à rentrer manuellement dans les menus de retroarch. Le 1er appel permet de les désactiver et l'appel à nouveau du script permet de les désactiver. Pour confirmer cette prise en compte, une image s'affiche. Il suffit de faire SELECT+START pour quitter l'image.
+Le script ***"Bezzel - switch.sh"*** permet d'activer ou de désactiver les Bezzels (image vennant entourer l'écran central où s'affichage la rom) sans avoir à rentrer manuellement dans les menus de retroarch. Le 1er appel permet de les désactiver et l'appel à nouveau du script permet de les désactiver. Pour confirmer cette prise en compte, une image s'affiche. Il suffit de faire SELECT+START pour quitter l'image.
 
 ##  Comment installer ?
 
@@ -29,18 +29,18 @@ Ajouter la plateforme suivante:<br />
 `  </system>`<br />
 <br />
 
-3. Créer le dossier suivant linuxtools
-mkdir /recalbox/share/roms/linuxtools
-chmod 777 /recalbox/share/roms/linuxtools
-mkdir /recalbox/share/roms/linuxtools/images
+3. Créer le dossier suivant linuxtools<br />
+`mkdir /recalbox/share/roms/linuxtools`<br />
+`chmod 777 /recalbox/share/roms/linuxtools`<br />
+`mkdir /recalbox/share/roms/linuxtools/images`<br />
 
-4. Copier les fichiers du projet par le partage Windows
-Bezzel - switch.sh dans \\recalbox\share\roms\linuxtools
-Bezzel-switchoff.jpg dans \\recalbox\share\roms\linuxtools\images
-Bezzel-switchon.jpg dans \\recalbox\share\roms\linuxtools\images
+4. Copier les fichiers du projet par le partage Windows<br />
+`Bezzel - switch.sh dans \\recalbox\share\roms\linuxtools`<br />
+`Bezzel-switchoff.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
+`Bezzel-switchon.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
 
-5. Rendre exécutable les sh
-chmod 777 "/recalbox/share/roms/linuxtools/Bezzel - switch.sh"
+5. Rendre exécutable les sh<br />
+`chmod 777 "/recalbox/share/roms/linuxtools/Bezzel - switch.sh"`<br />
 
 6. Relancer Recalbox
 
