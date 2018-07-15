@@ -13,7 +13,7 @@ Le script "Bezzel - switch.sh" permet d'activer ou de désactiver les Bezzels (i
 
  1. Ouvrir une session ssh<br />
 `mount -o remount,rw /`<br />
-<br />
+
 2. Ajouter la plateforme suivante dans le fichier /recalbox/share_init/system/.emulationstation/es_systems.cfg<br />
 `nano /recalbox/share_init/system/.emulationstation/es_systems.cfg`<br />
 Ajouter la plateforme suivante:<br />
@@ -28,6 +28,7 @@ Ajouter la plateforme suivante:<br />
 `    <theme>linuxtools</theme>`<br />
 `  </system>`<br />
 <br />
+
 3. Créer le dossier suivant linuxtools
 mkdir /recalbox/share/roms/linuxtools
 chmod 777 /recalbox/share/roms/linuxtools
