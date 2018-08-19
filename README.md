@@ -5,11 +5,9 @@
 *amiga15@outlook.fr / https://twitter.com/nordicpower*
 ***Juillet 2018***
 
-Ce projet contient pour l'instant un seul et unique script sh pour la plateforme Recalbox. D'autres viendrons très certainement completer ce projet.
+Ce projet contient pour l'instant deux scripts sh pour la plateforme Recalbox. D'autres viendrons très certainement completer ce projet.
 
-Le script ***"Bezzel - switch.sh"*** permet d'activer ou de désactiver les Bezzels (image vennant entourer l'écran central où s'affichage la rom) sans avoir à rentrer manuellement dans les menus de retroarch. Le 1er appel permet de les désactiver et l'appel à nouveau du script permet de les désactiver. Pour confirmer cette prise en compte, une image s'affiche. Il suffit de faire SELECT+START pour quitter l'image.
-
-Nouveau : 2 scripts prennent en compte les overlays de roms qui sont dans /recalbox/share/overlays
+Les scripts ***"Bezel - switchon.sh"*** et ***"Bezel - switchoff.sh"*** permettent d'activer ou de désactiver les Bezels (image vennant entourer l'écran central où s'affichage la rom) sans avoir à rentrer manuellement dans les menus de retroarch. Pour confirmer cette prise en compte, une image s'affiche. Il suffit de faire SELECT+START pour quitter l'image.
 
 ##  Comment installer ?
 
@@ -37,15 +35,13 @@ Ajouter la plateforme suivante:<br />
 `mkdir /recalbox/share/roms/linuxtools/images`<br />
 
 4. Copier les fichiers du projet par le partage Windows<br />
-`Bezzel - switch.sh dans \\recalbox\share\roms\linuxtools`<br />
-`Bezzel-switchoff.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
-`Bezzel-switchon.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
+`Bezel-switchoff.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
+`Bezel-switchon.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
 
 5. Rendre exécutable les sh<br />
-`chmod 777 "/recalbox/share/roms/linuxtools/Bezzel - switch.sh"`<br />
-`chmod 777 "/recalbox/share/roms/linuxtools/Bezzel - switchon.sh"`<br />
-`chmod 777 "/recalbox/share/roms/linuxtools/Bezzel - switchoff.sh"`<br />
+`chmod 777 "/recalbox/share/roms/linuxtools/Bezel - switchon.sh"`<br />
+`chmod 777 "/recalbox/share/roms/linuxtools/Bezel - switchoff.sh"`<br />
 
 6. Relancer Recalbox
 
-Une nouvelle plateforme va apparaitre (sans thème) avec le script Bezzel - switch.sh comme seul et unique rom
+Une nouvelle plateforme va apparaitre (sans thème) avec les 2 scripts "Bezel - switchon.sh" et "Bezel - switchoff.sh"
