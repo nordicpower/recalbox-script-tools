@@ -119,7 +119,7 @@ fi
 
 echo Desactivation des Bezzels
 mv $BEZZEL_PATH/*.$BEZZEL_EXT $BEZZEL_ARCH
-BEZZEL_IMG="/recalbox/share/roms/linuxtools/images/Bezzel-switchoff.jpg"
+BEZZEL_IMG="/recalbox/share/roms/linuxtools/images/Bezel-switchoff.jpg"
 echo "$(date) Desactivation des Bezzels">>$LOG_FILE
 
 #Restauration config defaut
