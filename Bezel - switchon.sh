@@ -4,7 +4,7 @@
 #------------------------------------------------------------------------------#
 # ACTIVATION DES BEZELS PAR DEPLACEMENT DES FICHIERS                           #
 #------------------------------------------------------------------------------#
-# NORDIC POWER amiga15@outlook.fr                 0.9.02 07/06/2018-19/08/2018 #
+# NORDIC POWER amiga15@outlook.fr                 0.9.03 07/06/2018-19/08/2018 #
 ################################################################################
 # LES OVERLAYS PRIS EN COMPTE SONT DANS /recalbox/share/overlays               #
 ################################################################################
@@ -182,7 +182,7 @@ mv $BEZEL_ARCH/cps2/*.* $OVERLAYS_PATH/cps2
 mv $BEZEL_ARCH/cps3/*.* $OVERLAYS_PATH/cps3
 mv $BEZEL_ARCH/shmups/*.* $OVERLAYS_PATH/shmups
 mv "$BEZEL_ARCH/snes MSU-1/*.*" "$OVERLAYS_PATH/snes MSU-1"
-mv $BEZEL_ARCH/pack-arcade-artwork/*.* $OVERLAYS_PATH/pack-arcade-artwork
+mv $BEZEL_ARCH/pack-arcade-artwork/*.* $BEZEL_PATH/overlays/pack-arcade-artwork
 
 #NORDICPOWER
 mv $BEZEL_ARCH/amigaHDD/*.* $OVERLAYS_PATH/amigaHDD
