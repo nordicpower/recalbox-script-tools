@@ -2,9 +2,9 @@
 ################################################################################
 #                              - GAMELISTPOWER -                               #
 #------------------------------------------------------------------------------#
-# ACTIVATION DES BEZZELS PAR DEPLACEMENT DES FICHIERS                          #
+# ACTIVATION DES BEZELS PAR DEPLACEMENT DES FICHIERS                           #
 #------------------------------------------------------------------------------#
-# NORDIC POWER amiga15@outlook.fr                 0.9.01 07/06/2018-19/08/2018 #
+# NORDIC POWER amiga15@outlook.fr                 0.9.02 07/06/2018-19/08/2018 #
 ################################################################################
 # LES OVERLAYS PRIS EN COMPTE SONT DANS /recalbox/share/overlays               #
 ################################################################################
@@ -114,7 +114,7 @@ mount -o remount,rw /
 #ACTIVATION BEZZELS PLATEFORMES
 echo Activation des Bezzels
 mv $BEZZEL_ARCH/*.$BEZZEL_EXT $BEZZEL_PATH
-BEZZEL_IMG="/recalbox/share/roms/linuxtools/images/Bezzel-switchon.jpg"
+BEZZEL_IMG="/recalbox/share/roms/linuxtools/images/Bezel-switchon.jpg"
 echo "$(date) Activation des Bezzels">>$LOG_FILE
 
 ################################################################################
