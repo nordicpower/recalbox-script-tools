@@ -96,6 +96,7 @@ createdir "${BEZEL_ARCH}/cps2"
 createdir "${BEZEL_ARCH}/cps3"
 createdir "${BEZEL_ARCH}/shmups"
 createdir "${BEZEL_ARCH}/snes MSU-1"
+createdir "${BEZEL_ARCH}/pack-arcade-artwork"
 
 #NORDICPOWER
 createdir "${BEZEL_ARCH}/amigaHDD"
@@ -180,7 +181,8 @@ mv $BEZEL_ARCH/cps1/*.* $OVERLAYS_PATH/cps1
 mv $BEZEL_ARCH/cps2/*.* $OVERLAYS_PATH/cps2
 mv $BEZEL_ARCH/cps3/*.* $OVERLAYS_PATH/cps3
 mv $BEZEL_ARCH/shmups/*.* $OVERLAYS_PATH/shmups
-mv $BEZEL_ARCH/snes MSU-1/*.* $OVERLAYS_PATH/snes MSU-1
+mv "$BEZEL_ARCH/snes MSU-1/*.*" "$OVERLAYS_PATH/snes MSU-1"
+mv $BEZEL_ARCH/pack-arcade-artwork/*.* $OVERLAYS_PATH/pack-arcade-artwork
 
 #NORDICPOWER
 mv $BEZEL_ARCH/amigaHDD/*.* $OVERLAYS_PATH/amigaHDD
