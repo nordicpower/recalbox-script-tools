@@ -7,7 +7,7 @@
 
 Ce projet contient pour l'instant deux scripts sh pour la plateforme Recalbox. D'autres viendrons très certainement completer ce projet.
 
-Les scripts ***"Bezel - switchon.sh"*** et ***"Bezel - switchoff.sh"*** permettent d'activer ou de désactiver les Bezels (image vennant entourer l'écran central où s'affichage la rom) sans avoir à rentrer manuellement dans les menus de retroarch. Pour confirmer cette prise en compte, une image s'affiche. Il suffit de faire SELECT+START pour quitter l'image.
+Les scripts ***"Bezel - switchon.sh"*** et ***"Bezel - switchoff.sh"*** permettent d'activer ou de désactiver les Bezels (image vennant entourer l'écran central où s'affichage la rom) sans avoir à rentrer manuellement dans les menus de retroarch. Pour confirmer cette prise en compte, une image s'affiche. Il suffit de faire HOTKEY+START pour quitter l'image.
 
 ##  Comment installer ?
 
