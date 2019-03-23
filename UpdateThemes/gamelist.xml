@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Retrorama.url</path>
+    <name>Theme Retrorama</name>
+    <image>./images/Retrorama.jpg</image>
+    <genre>THEME</genre>
+    <lastplayed>20190321T052033</lastplayed>
+    <playcount>2</playcount>
+  </game>
+  <game>
+    <path>./DarkSide.url</path>
+    <name>Theme DarkSide</name>
+    <image>./images/DarkSide.jpg</image>
+    <genre>THEME</genre>
+    <lastplayed>20190321T051832</lastplayed>
+    <playcount>1</playcount>
+  </game>
+  <game>
+    <path>./UpdateThemes.url</path>
+    <lastplayed>20190323T055854</lastplayed>
+    <playcount>17</playcount>
+    <genre>UPDATE</genre>
+    <name> Mise à jour de la liste des thèmes</name>
+    <image>./images/UpdateThemes.jpg</image>
+  </game>
+</gameList>

@@ -3,18 +3,45 @@
 # Readme / lisez-moi
 ***Par Nordicpower***
 *amiga15@outlook.fr / https://twitter.com/nordicpower*
-***Juillet 2018***
+***Mars 2019***
 
-Ce projet contient pour l'instant deux scripts sh pour la plateforme Recalbox. D'autres viendrons très certainement completer ce projet.
+Ce projet est destiné à ajouter des nouvelles fonctionnalités à RECALBOX par l'intermédiaire de nouveaux scripts en ligne de commande.
 
-Les scripts ***"Bezel - switchon.sh"*** et ***"Bezel - switchoff.sh"*** permettent d'activer ou de désactiver les Bezels (image vennant entourer l'écran central où s'affichage la rom) sans avoir à rentrer manuellement dans les menus de retroarch. Pour confirmer cette prise en compte, une image s'affiche. Il suffit de faire HOTKEY+START pour quitter l'image.
 
-##  Comment installer ?
+##  Quelles fonctionnalités ?
 
- 1. Ouvrir une session ssh<br />
+### Les Bezels
+
+Le format 4:3 entraine sur les téléviseurs 16:9 des barres noires verticales sur les côtés à cause des diffèrences de rapport dans l'affichage.
+Les Bezels sont des images qui permettent de completer ce vide par des images statiques.
+
+Le script permet d'activer ou de désactiver cette fonctionnalité. Lisez README_Bezels.md pour l'installation
+
+
+### Les themes téléchargeables
+
+Les themes permettent de personaliser l'interface de lancement de Recalbox, ceux-ci sont stockés dans /recalbox/share_init/system/.emulationstation/themes
+Les themes comportent de nombreuses images ce qui coûte de la place sur la SD et du temps de téléchargement
+
+Le script permet à travers une plateforme dédiée, de télécharger des thèmes à la demande et de rafraichir la liste disponible
+Cela permet de proposer de nombreux themes sans les fournir dans une image et de les mettre à jour régulièrement
+
+
+Lisez README_WebTheme.md pour l'installation
+
+
+
+
+##  Comment installer ce type de script?
+
+Ces scripts sont lancés à travers une nouvelle plateforme dédiée dans EmulationStation, la procédure d'installation comporte toujours ces étapes:
+
+1. Ouvrir une session ssh (j'utilise Putty sous W10) avec le compte root
+
+2. Passer la SD en mode écriture
 `mount -o remount,rw /`<br />
 
-2. Ajouter la plateforme suivante dans le fichier /recalbox/share_init/system/.emulationstation/es_systems.cfg<br />
+3. Editer le fichier des plateformes pour ajouter une plateforme (fichier /recalbox/share_init/system/.emulationstation/es_systems.cfg)
 `nano /recalbox/share_init/system/.emulationstation/es_systems.cfg`<br />
 Ajouter la plateforme suivante:<br />
 `<!--NORDIC POWER-->`<br />
@@ -29,19 +56,12 @@ Ajouter la plateforme suivante:<br />
 `  </system>`<br />
 <br />
 
-3. Créer le dossier suivant linuxtools<br />
+4. Créer le dossier destination inscrit dans la ligne path
 `mkdir /recalbox/share/roms/linuxtools`<br />
 `chmod 777 /recalbox/share/roms/linuxtools`<br />
 `mkdir /recalbox/share/roms/linuxtools/images`<br />
 
-4. Copier les fichiers du projet par le partage Windows<br />
-`Bezel-switchoff.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
-`Bezel-switchon.jpg dans \\recalbox\share\roms\linuxtools\images`<br />
+5. Relancer recalbox la prise en compte
+`reboot
 
-5. Rendre exécutable les sh<br />
-`chmod 777 "/recalbox/share/roms/linuxtools/Bezel - switchon.sh"`<br />
-`chmod 777 "/recalbox/share/roms/linuxtools/Bezel - switchoff.sh"`<br />
-
-6. Relancer Recalbox
-
-Une nouvelle plateforme va apparaitre (sans thème) avec les 2 scripts "Bezel - switchon.sh" et "Bezel - switchoff.sh"
+nordicpower
