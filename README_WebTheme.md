@@ -3,7 +3,7 @@
 # Readme / lisez-moi
 ***Par Nordicpower***
 *amiga15@outlook.fr / https://twitter.com/nordicpower*
-***Juillet 2018***
+***MARS 2019***
 
 Ce projet est destiné à ajouter la capacité à télécharger des themes à partir d'une plateforme.
 
