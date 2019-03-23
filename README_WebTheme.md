@@ -54,10 +54,11 @@ Ajouter la plateforme suivante:<br />
 `chmod 777 /recalbox/share/roms/theme`<br />
 `mkdir /recalbox/share/roms/theme/images`<br />
 
-5. Sous Windows, télécharger l'archive UpdateThemes.zip et copier le contenu sous \\recalbox\share\roms\theme
+5. Sous Windows, télécharger l'archive UpdateThemes.zip et copier le contenu dézippé sous \\recalbox\share\roms\theme
 
 6. Rendre executable le sh
 `chmod 777 /recalbox/share/roms/theme/*.sh`<br />
 
 7. Relancer recalbox
  
+8. La nouvelle plateforme Theme est disponible
